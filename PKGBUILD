@@ -15,7 +15,7 @@ makedepends=(
   clang
   git
 )
-provides=('libLC3plus.so')
+provides=('libLC3plus.so' liblc3plus)
 source=('https://www.etsi.org/deliver/etsi_ts/103600_103699/103634/01.03.01_60/ts_103634v010301p0.zip'
         'CMakeLists.txt'
         'LC3plus.pc.in')
