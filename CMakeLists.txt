@@ -88,7 +88,7 @@ SET(CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} -Werror-implicit-function-declaration")
 
 set_target_properties(LC3plus PROPERTIES VERSION ${PROJECT_VERSION})
 
-set_target_properties(LC3plus PROPERTIES PUBLIC_HEADER lc3.h)
+set_target_properties(LC3plus PROPERTIES PUBLIC_HEADER lc3plus.h)
 
 target_link_libraries(LC3plus m)
 
